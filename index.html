@@ -380,7 +380,15 @@ source ~/.bash_aliases</code></pre>
 <script src="https://www.jqueryscript.net/demo/jQuery-Plugin-To-Emulate-Terminal-Window-Shell-js/dist/js/jquery.shell.min.js"></script>
 <script src="https://www.jqueryscript.net/demo/jQuery-Plugin-To-Emulate-Terminal-Window-Shell-js/dist/js/shell.min.js"></script>
 <script>
-    import * as Typed from "typed.js";
+    // Can also be included with a regular script tag
+    import Typed from 'typed.js';
+
+    var options = {
+        strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
+        typeSpeed: 40
+    }
+
+    var typed = new Typed(".element", options);
 
     $('#ubuntu').shell({
 // The user of the shell
