@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-629">
-              <caret line="383" column="4" selection-start-line="383" selection-start-column="4" selection-end-line="383" selection-end-column="4" />
+            <state relative-caret-position="119">
+              <caret line="362" column="409" selection-start-line="362" selection-start-column="409" selection-end-line="362" selection-end-column="409" />
               <folding>
                 <element signature="n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#svg#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -68,6 +68,7 @@
                 <element signature="n#linearGradient#0;n#defs#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#div#3;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#linearGradient#1;n#defs#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#div#3;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#g#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#div#3;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#ul#0;n#div#0;n#div#3;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#svg#0;n#a#0;n#li#0;n#ul#1;n#div#0;n#div#3;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#path#0;n#svg#0;n#a#0;n#li#0;n#ul#1;n#div#0;n#div#3;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#svg#0;n#a#0;n#li#1;n#ul#1;n#div#0;n#div#3;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -147,12 +148,12 @@
       <option name="presentableId" value="Default" />
       <updated>1552473810214</updated>
       <workItem from="1552473811653" duration="10318000" />
-      <workItem from="1552503690693" duration="2153000" />
+      <workItem from="1552503690693" duration="2429000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12471000" />
+    <option name="totallyTimeSpent" value="12747000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -192,8 +193,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-629">
-          <caret line="383" column="4" selection-start-line="383" selection-start-column="4" selection-end-line="383" selection-end-column="4" />
+        <state relative-caret-position="119">
+          <caret line="362" column="409" selection-start-line="362" selection-start-column="409" selection-end-line="362" selection-end-column="409" />
           <folding>
             <element signature="n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#svg#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -245,6 +246,7 @@
             <element signature="n#linearGradient#0;n#defs#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#div#3;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#linearGradient#1;n#defs#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#div#3;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#g#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#div#3;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#ul#0;n#div#0;n#div#3;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#svg#0;n#a#0;n#li#0;n#ul#1;n#div#0;n#div#3;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#path#0;n#svg#0;n#a#0;n#li#0;n#ul#1;n#div#0;n#div#3;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#svg#0;n#a#0;n#li#1;n#ul#1;n#div#0;n#div#3;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
