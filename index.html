@@ -32,17 +32,50 @@
         window['_fs_host'] = 'fullstory.com';
         window['_fs_org'] = 'JQ1EH';
         window['_fs_namespace'] = 'FS';
-        (function(m,n,e,t,l,o,g,y){
-            if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
-            g=m[e]=function(a,b,s){g.q?g.q.push([a,b,s]):g._api(a,b,s);};g.q=[];
-            o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
-            y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
-            g.identify=function(i,v,s){g(l,{uid:i},s);if(v)g(l,v,s)};g.setUserVars=function(v,s){g(l,v,s)};g.event=function(i,v,s){g('event',{n:i,p:v},s)};
-            g.shutdown=function(){g("rec",!1)};g.restart=function(){g("rec",!0)};
-            g.consent=function(a){g("consent",!arguments.length||a)};
-            g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
-            g.clearUserCookie=function(){};
-        })(window,document,window['_fs_namespace'],'script','user');
+        (function (m, n, e, t, l, o, g, y) {
+            if (e in m) {
+                if (m.console && m.console.log) {
+                    m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');
+                }
+                return;
+            }
+            g = m[e] = function (a, b, s) {
+                g.q ? g.q.push([a, b, s]) : g._api(a, b, s);
+            };
+            g.q = [];
+            o = n.createElement(t);
+            o.async = 1;
+            o.src = 'https://' + _fs_host + '/s/fs.js';
+            y = n.getElementsByTagName(t)[0];
+            y.parentNode.insertBefore(o, y);
+            g.identify = function (i, v, s) {
+                g(l, {uid: i}, s);
+                if (v) g(l, v, s)
+            };
+            g.setUserVars = function (v, s) {
+                g(l, v, s)
+            };
+            g.event = function (i, v, s) {
+                g('event', {n: i, p: v}, s)
+            };
+            g.shutdown = function () {
+                g("rec", !1)
+            };
+            g.restart = function () {
+                g("rec", !0)
+            };
+            g.consent = function (a) {
+                g("consent", !arguments.length || a)
+            };
+            g.identifyAccount = function (i, v) {
+                o = 'account';
+                v = v || {};
+                v.acctId = i;
+                g(o, v)
+            };
+            g.clearUserCookie = function () {
+            };
+        })(window, document, window['_fs_namespace'], 'script', 'user');
     </script>
 </head>
 
@@ -343,7 +376,11 @@ source ~/.bash_aliases</code></pre>
                     </a>
                 </div>
                 <ul class="footer-links list-reset">
-                    <a href="https://www.producthunt.com/posts/autogit?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-autogit" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=148219&theme=light" alt="Autogit - Open-source CLI for automating Git™ Processes | Product Hunt Embed" style="width: 250px; height: 54px;" width="250px" height="54px" /></a>
+                    <a href="https://www.producthunt.com/posts/autogit?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-autogit"
+                       target="_blank"><img
+                            src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=148219&theme=light"
+                            alt="Autogit - Open-source CLI for automating Git™ Processes | Product Hunt Embed"
+                            style="width: 250px; height: 54px;" width="250px" height="54px"/></a>
                 </ul>
                 <ul class="footer-social-links list-reset">
                     <li>
@@ -405,7 +442,7 @@ source ~/.bash_aliases</code></pre>
         shadow: true,
 
 // The commands list
-        commands: ["agit init https://github.com/username/reponame.git #initialize remote repo", "agit commit # commmit and push changes","agit serve # realtime commmit and push changes"]
+        commands: ["agit init https://github.com/username/reponame.git #initialize remote repo", "agit commit # commmit and push changes", "agit serve # realtime commmit and push changes"]
     });
 
 </script>
@@ -445,7 +482,13 @@ source ~/.bash_aliases</code></pre>
 
 
 </script>
-
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-5513559808632473",
+        enable_page_level_ads: true
+    });
+</script>
 </body>
 
 </html>
